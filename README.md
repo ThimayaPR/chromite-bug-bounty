@@ -22,4 +22,8 @@ The ISA has a few types (R,S,I,J,B,U) of instruction formats that are used with 
 -> The reason for the odd formats is to reduce hardware decoding complexity while also conforming to the other instructions. The instruction decoders can be made simpler by making most formats conform to a particular style. E.g The branch format has a few of its bits(12 and 11) scattered to make it such that the formats will always expect a particular value (eg:imm[5] ) at a specific instructions bit( eg:25th).
 ## How many instructions can you add ?
 
-Within the 32-bit instr,only the OP codes are mutable and are 7 bits long. So that leaves us with 2^5(32) instructions. in the op code field and few the formats allow the designer to add instructions in place of various "func"tions in the spec 
+Within the 32-bit instr,only the OP codes are mutable and are 7 bits long. So that leaves us with 2^5(32) instructions. in the op code field and few the formats allow the designer to add instructions in place of various "func"tions in the spec
+
+#Week2
+Miscommunication with credit allocation caused a setback. Documenting toolchain install and catching up with class 
+##Documenting Toolchain Install
