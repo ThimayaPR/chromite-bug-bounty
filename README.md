@@ -24,6 +24,6 @@ The ISA has a few types (R,S,I,J,B,U) of instruction formats that are used with 
 
 Within the 32-bit instr,only the OP codes are mutable and are 7 bits long. So that leaves us with 2^5(32) instructions. in the op code field and few the formats allow the designer to add instructions in place of various "func"tions in the spec
 
-#Week2
+# Week2
 Miscommunication with credit allocation caused a setback. Documenting toolchain install and catching up with class 
-##Documenting Toolchain Install
+## Documenting Toolchain Install
